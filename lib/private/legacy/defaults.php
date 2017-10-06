@@ -54,7 +54,7 @@ class OC_Defaults {
 		$version = \OCP\Util::getVersion();
 
 		$this->defaultEntity = 'ownCloud'; /* e.g. company name, used for footers and copyright notices */
-		$this->defaultName = 'ownCloud'; /* short name, used when referring to the software */
+		$this->defaultName = '<span class="own">own</span><span class="cloud">Cloud</span>'; /* short name, used when referring to the software */
 		$this->defaultTitle = 'ownCloud'; /* can be a longer name, for titles */
 		$this->defaultBaseUrl = 'https://owncloud.org';
 		$this->defaultSyncClientUrl = 'https://owncloud.org/install/#install-clients';
